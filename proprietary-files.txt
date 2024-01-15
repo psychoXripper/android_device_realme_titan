@@ -145,6 +145,52 @@ vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/lib/libfgauge_gm30.so
 
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@4.1-service.trustonic
+vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
+vendor/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc
+vendor/etc/init/tee.rc
+vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc
+vendor/lib/hw/kmsetkey.default.so
+vendor/lib/hw/kmsetkey.trustonic.so
+vendor/lib/libTEECommon.so
+odm/lib64/libTeeClient.so
+vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
+vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
+vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
+vendor/lib64/hw/kmsetkey.default.so
+vendor/lib64/hw/kmsetkey.trustonic.so
+vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
+vendor/lib64/libMcTeeSoter.so
+vendor/lib64/libTEECommon.so
+vendor/lib64/libkeymaster4.so
+vendor/lib64/libkeymaster41.so
+vendor/lib64/libkeymaster4_1support.so
+vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
+vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
+
+# Gatekeeper
+lib/vendor.trustonic.tee@1.0.so
+lib/vendor.trustonic.tee@1.1.so
+lib64/vendor.trustonic.tee@1.0.so
+lib64/vendor.trustonic.tee@1.1.so
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service
+vendor/bin/hw/vendor.trustonic.tee@1.1-service
+vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
+vendor/etc/init/vendor.trustonic.tee@1.1-service.rc
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
+vendor/lib/hw/gatekeeper.default.so
+vendor/lib/hw/gatekeeper.trustonic.so
+vendor/lib/libMcClient.so
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
+vendor/lib64/hw/gatekeeper.default.so
+vendor/lib64/hw/gatekeeper.trustonic.so
+vendor/lib64/libMcClient.so
+vendor/lib64/vendor.trustonic.tee@1.0.so
+vendor/lib64/vendor.trustonic.tee@1.1.so
+
+
+
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/nvram_daemon
@@ -164,3 +210,6 @@ vendor/lib64/libnvram.so
 vendor/lib64/libnvram_sec.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
+
+# Trusted UI
+vendor/lib64/vendor.trustonic.tee.tui@1.0.so
