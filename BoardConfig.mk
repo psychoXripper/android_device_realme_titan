@@ -6,7 +6,8 @@
 
 DEVICE_PATH := device/realme/titan
 
-
+# APEX
+DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Architecture
 TARGET_ARCH := arm64
