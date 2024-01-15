@@ -213,3 +213,8 @@ vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 
 # Trusted UI
 vendor/lib64/vendor.trustonic.tee.tui@1.0.so
+
+# USB
+vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2
+vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc
+vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml
