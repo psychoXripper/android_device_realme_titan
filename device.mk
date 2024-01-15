@@ -49,6 +49,9 @@ PRODUCT_PACKAGES += \
     otapreopt_script
 
 
+# Dynamic Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_BUILD_SUPER_PARTITION := false
 
 # Health
 PRODUCT_PACKAGES += \
