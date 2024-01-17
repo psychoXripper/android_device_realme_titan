@@ -255,6 +255,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     hardware/oplus
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.mtk
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3.vendor \
