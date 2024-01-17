@@ -61,6 +61,13 @@ prebuilt_etc {
     vendor: true,
 }
 
+rebuilt_etc {
+    name: "init.target.rc",
+    src: "etc/init.target.rc",
+    sub_dir: "init",
+    system_ext_specific: true,
+}
+
 prebuilt_etc {
     name: "ueventd.mt6877.rc",
     filename: "ueventd.rc",
