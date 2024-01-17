@@ -140,7 +140,20 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # Overlays
+PRODUCT_PACKAGES += \
+    FrameworksResOverlay \
+    SettingsProviderOverlay \
+    CarrierConfigOverlay \
+    SystemUIOverlay \
+    SettingsOverlay \
+    TelephonyOverlay \
+    WifiResOverlay
+
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+    
 PRODUCT_ENFORCE_RRO_TARGETS := *
+
 
 
 # Permissions
