@@ -8,9 +8,7 @@ vendor/etc/init/android.hardware.audio.service.mediatek.rc
 vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so
 vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so
 vendor/lib/hw/audio.primary.default.so
-vendor/lib/hw/audio.primary.mt6877.so
 vendor/lib/hw/audio.r_submix.default.so
-vendor/lib/hw/audio.r_submix.mt6877.so
 vendor/lib/hw/audio.usb.default.so
 vendor/lib/audio_common-aidl-cpp.so
 vendor/lib/audioclient-types-aidl-cpp.so
@@ -20,8 +18,6 @@ vendor/lib/libalsautils.so
 vendor/lib/libaudio_engineer_test.so
 vendor/lib/libaudioclient_aidl_conversion.so
 vendor/lib/libaudiofoundation.so
-vendor/lib/libaudiotoolkit_vendor.so
-vendor/lib/libbwc.so
 vendor/lib/libktvdrc.so
 vendor/lib/libktveffect.so
 vendor/lib/libktveffect_rec.so
@@ -30,13 +26,11 @@ vendor/lib/libktvns.so
 vendor/lib/libktvreverb.so
 vendor/lib/libktvsoundtouch.so
 vendor/lib/libktvvolume.so
-vendor/lib/libladder.so
 vendor/lib/liboplus_audio_config.so
 vendor/lib/libshmemcompat.so
 vendor/lib/libshmemutil.so
 vendor/lib/shared-file-region-aidl-cpp.so
 vendor/lib/vendor.mediatek.hardware.audio@6.1.so
-vendor/lib/vendor.mediatek.hardware.audio@7.1.so
 vendor/lib/vendor.oplus.hardware.performance@1.0.so
 vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so
 vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so
