@@ -103,6 +103,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.3-service.oplus \
+    vendor.oplus.hardware.fingerprintextension@1.0.vendor
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
