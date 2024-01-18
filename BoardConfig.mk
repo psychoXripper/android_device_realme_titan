@@ -131,6 +131,8 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 ENABLE_VENDOR_RIL_SERVICE := true
 
 
+# SELinux
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
