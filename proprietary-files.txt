@@ -64,6 +64,11 @@ vendor/lib64/libshmemcompat.so
 vendor/lib64/libshmemutil.so
 vendor/lib64/shared-file-region-aidl-cpp.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
+vendor/lib/libvow_ap_test_aa.so
+vendor/lib/libvow_ap_test_dd.so
+vendor/lib/libvow_ap_test_ha.so
+vendor/lib/libvow_ap_test_hh.so
+vendor/lib/libvow_ap_test_nn.so
 vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
 vendor/lib64/vendor.oplus.hardware.performance@1.0.so
 
