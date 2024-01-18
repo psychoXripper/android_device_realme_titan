@@ -1,3 +1,7 @@
+
+# Display
+/dev/oplus_display/disp_feature u:object_r:vendor_displayfeature_device:s0
+
 # Fingerprint
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2.3-service\.oplus u:object_r:hal_fingerprint_default_exec:s0
 
