@@ -38,6 +38,7 @@ vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.mt6877.so
 vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.r_submix.mt6877.so
+vendor/lib/hw/sound_trigger.primary.default.so
 vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/audio_common-aidl-cpp.so
 vendor/lib64/audioclient-types-aidl-cpp.so
@@ -65,7 +66,6 @@ vendor/lib64/shared-file-region-aidl-cpp.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
 vendor/lib64/vendor.oplus.hardware.performance@1.0.so
-vendor/lib64/hw/sound_trigger.primary.default.so
 
 # Audio (FX modules)
 odm/lib/soundfx/awinic.haptic.effect.so
