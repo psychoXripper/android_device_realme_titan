@@ -1377,6 +1377,11 @@ vendor/lib64/hw/gps.default.so
 vendor/lib64/libDR.so
 vendor/lib64/libmnl.so
 
+# Hotword - from titan-user 13 TP1A.220905.001 1693542148431 release-keys
+-product/priv-app/HotwordEnrollmentOKGoogleRISCV/HotwordEnrollmentOKGoogleRISCV.apk|496947e07b5fb413f0354c0b0897ffe71b32b7ed
+-product/priv-app/HotwordEnrollmentXGoogleRISCV/HotwordEnrollmentXGoogleRISCV.apk|e3cf61bf81643e173034034615c356e82363dedf
+-system_ext/framework/com.android.hotwordenrollment.common.util.jar|a418f5697951468fb93788b6e92d2912e7ae7149
+
 # IMS - from titan-user 13 TP1A.220905.001 1693542148431 release-keys
 bin/vtservice
 etc/init/init.vtservice.rc
