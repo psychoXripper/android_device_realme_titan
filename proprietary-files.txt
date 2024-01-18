@@ -1084,6 +1084,7 @@ vendor/lib64/libfeature_rss.so
 vendor/lib64/libfeatureiodrv_mem.so
 vendor/lib64/libged.so
 vendor/lib64/libgralloc_extra.so
+vendor/lib/libgz_gp_client.so
 vendor/lib64/libgz_uree.so
 vendor/lib64/libheichal.so
 vendor/lib64/libhfmanager.so
@@ -1646,6 +1647,10 @@ vendor/lib64/vendor.trustonic.tee.tui@1.0.so
 # Media
 vendor/bin/vpud
 vendor/etc/init/vpud.rc
+vendor/lib/AV1SecureVdecCA.so
+vendor/lib/AVCSecureVdecCA.so
+vendor/lib/HEVCSecureVdecCA.so
+vendor/lib/VP9SecureVdecCA.so
 vendor/lib/libvcodec_oal.so
 vendor/lib/libvcodec_utility.so
 vendor/lib/libvcodecdrv.so
