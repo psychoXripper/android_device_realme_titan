@@ -282,6 +282,7 @@ PRODUCT_PACKAGES += \
     fstab.mt6877.rc \
     init.cgroup.rc \
     init.connectivity.rc \
+    init.fingerprint.rc \
     init.thermald.rc \
     init.modem.rc \
     init.mt6877.rc \
