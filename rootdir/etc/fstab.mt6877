@@ -10,7 +10,8 @@ vendor                            /vendor                ext4   ro              
 vendor                            /vendor                erofs  ro                                                                                                           wait,slotselect,avb,logical,first_stage_mount
 product                           /product               ext4   ro                                                                                                           wait,slotselect,avb,logical,first_stage_mount
 product                           /product               erofs  ro                                                                                                           wait,slotselect,avb,logical,first_stage_mount
-
+system_ext                        /system_ext            ext4   ro                                                                                                           wait,slotselect,avb,logical,first_stage_mount
+system_ext                        /system_ext            erofs  ro                                                                                                           wait,slotselect,avb,logical,first_stage_mount
 # Boot/Verity
 /dev/block/by-name/boot           /boot                  emmc   defaults                                                                                                     first_stage_mount,nofail,slotselect
 /dev/block/by-name/vbmeta_vendor  /vbmeta_vendor         emmc   defaults                                                                                                     first_stage_mount,nofail,slotselect
