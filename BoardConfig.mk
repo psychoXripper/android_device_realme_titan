@@ -136,7 +136,8 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # SELinux
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
