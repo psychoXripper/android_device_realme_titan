@@ -170,3 +170,6 @@
 
 #MTK In-House TEE
 /dev/ttyACM0              0660   radio      radio
+
+# Raw HID devices
+/dev/hidraw*   

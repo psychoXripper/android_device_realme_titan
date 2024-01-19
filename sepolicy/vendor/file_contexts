@@ -61,6 +61,7 @@
 
 # Sensors
 /(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@2\.1-service\.oplus-multihal u:object_r:mtk_hal_sensors_exec:s0
+/dev/hidraw[0-9]* u:object_r:hidraw_device:s0
 
 # Thermal
 /(vendor|system/vendor)/bin/thermald u:object_r:thermald_exec:s0
