@@ -1,10 +1,8 @@
-
 type thermald, domain;
 type thermald_exec, exec_type, vendor_file_type, file_type;
 type thermal_data_file, data_file_type, file_type;
 
 init_daemon_domain(thermald)
-
 
 allow thermald self:capability { fsetid sys_boot };
 allow thermald thermald:capability { chown fowner };
